@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>LES SIMPSONS</title>
+        <link rel="stylesheet" href="../styles/styles.css" />
+        
+    </head>
+    <body class="simpsons-bg" >
+        <header>
+            <img src="../img/images/38c085151cb82f0ec306421476c424f4.png " class="box4">
+            <h1 class="title">LES SIMPSONS</h1>
+        </header>
+        <div id="content1">            
+            <div class="form">
+                <h2>Contact</h2>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">Exemple de form</a>
+                <form method="get" action="contact.html">
+                    <input type="hidden" name="RefPedagogique" value="TimothéeLeBest">
+                    <fieldset>
+                    <label for="name">Nom Prénom: </label>
+                    <input type="text" name="name" id="name" required>
+                    </fieldset>
+                    <fieldset>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    </fieldset>
+                    <fieldset>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" required>
+                    </fieldset>
+                    <fieldset>
+                    <label for="contenu">GROS TEXTE LONG</label>
+                    <textarea name="contenu" ></textarea>
+                    </fieldset>
+                    <fieldset>
+                    <label for="OuiNon">Oui ou Non ?</label>
+                    <input type="radio" name="OuiNon" value="Oui"> Oui
+                    <input type="radio" name="OuiNon" value="Non"> Non
+                    </fieldset>
+                    <fieldset>
+                        <legend>T'es d'accord avec les lettres ci dessous ?</legend>
+                        <label for="Yolo">Quelles lettres ?</label>
+                        <input type="checkbox" name="Yolo" value="A"> A
+                        <input type="checkbox" name="Yolo" value="B"> B
+                        <input type="checkbox" name="Yolo" value="C"> C
+                        <input type="checkbox" name="Yolo" value="D"> D
+                        <input type="checkbox" name="Yolo" value="E"> E
+                    </fieldset>
+                    <fieldset>
+                    <label for="textCourt">Max 8 lettres Min 4 lettres: </label>
+                    
+                    <input type="text" name="textCourt" id="name" minlength="4" maxlength="8" size="10" required> 
+                    </fieldset>
+                    <fieldset>
+                    <label for="MonAvatar">Ta Photo</label>
+                    <input type="file" name="MonAvatar">
+                    </fieldset>
+                    <fieldset>
+                    <input type="submit" value="Envoyer">
+                    </fieldset>
+                </form>
+                <h2>Formulaire en POST</h2>
+                <form method="post" action="contact.html">
+                    <input type="hidden" name="RefPedagogique" value="TimothéeLeBest">
+                    <fieldset>
+                    <label for="namePost">Nom Prénom: </label>
+                    <input type="text" name="namePost" required>
+                    </fieldset>
+                    <fieldset>
+                    <label for="emailPost">E-mail</label>
+                    <input type="email" name="emailPost" required>
+                    </fieldset>
+                    <fieldset>
+                    <label for="passwordPost">Mot de passe</label>
+                    <input type="password" name="passwordPost" required>
+                    </fieldset>
+                    <fieldset>
+                    <input type="submit" value="Envoyer">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../pages/page-3.html">Trailer</a></li>
+                    <li><a href="../pages/page-2.html">Personnages</a></li>
+                </ul>
+            </nav>
+        </footer>        
+    </body>
+</html>
